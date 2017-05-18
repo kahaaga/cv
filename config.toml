@@ -1,6 +1,6 @@
 # Page settings
 
-#baseurl = "http://kahaaga.net"
+baseurl = "http://kahaaga.net"
 relativeurls = true
 languageCode = "en-us"
 title = "Kristian Agasøster Haaga resume"
@@ -145,7 +145,7 @@ disable404 = true
         position = "Shipboard scientist"
         dates = "November - December 2013"
         company = "University of Bergen, Centre for Geobiology (CGB)"
-        details = "Scientific cruise, [ODEMAR]([http://odemar.weebly.com/),with the French IFREMER's Research vessel *Pourquoi Pas?*. Studied the detachment fault system at 13 degrees N on the Mid-Atlantic Ridge, and earthquake-triggered seafloor structures in the Caribbean"
+        details = "Scientific cruise, [ODEMAR](http://odemar.weebly.com/), with the French IFREMER's Research vessel *Pourquoi Pas?*. Studied the detachment fault system at 13 degrees N on the Mid-Atlantic Ridge, and earthquake-triggered seafloor structures in the Caribbean"
 
     # Projects section
     [params.projects]
@@ -156,7 +156,7 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Non-parametric causal assessment in deep-time geological records"
-        url = "http://adsabs.harvard.edu/abs/2016EGUGA..1814838A"
+        url = "http://meetingorganizer.copernicus.org/EGU2016/EGU2016-14838-1.pdf"
         tagline = "*Agasøster Haaga, K., Diego, D., Brendryen, J., & Hannisdal, B. (2016, April). Non-parametric causal assessment in deep-time geological records. In EGU General Assembly Conference Abstracts (Vol. 18, p. 14838).*"
 
         [[params.projects.list]]
@@ -166,7 +166,7 @@ disable404 = true
         
         [[params.projects.list]]
         title = "First direct observation of coseismic slip and seafloor rupture along a submarine normal fault and implications for fault slip history"
-        uril = "http://www.sciencedirect.com/science/article/pii/S0012821X16303119"
+        url = "http://www.sciencedirect.com/science/article/pii/S0012821X16303119"
         tagline = "*Escartín, J., Leclerc, F., Olive, J. A., Mevel, C., Cannat, M., Petersen, S., ... & Bonnemains, D. (2016). First direct observation of coseismic slip and seafloor rupture along a submarine normal fault and implications for fault slip history. Earth and Planetary Science Letters, 450, 96-107.*"
     
     # Skills section
