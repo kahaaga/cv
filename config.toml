@@ -145,7 +145,7 @@ disable404 = true
         position = "Shipboard scientist"
         dates = "November - December 2013"
         company = "University of Bergen, Centre for Geobiology (CGB)"
-        details = "Scientific cruise ([ODEMAR]([http://odemar.weebly.com/)) with the French IFREMER's Research vessel *Pourquoi Pas?*. Studied the detachment fault system at 13 degrees N on the Mid-Atlantic Ridge, and earthquake-triggered seafloor structures in the Caribbean"
+        details = "Scientific cruise, [ODEMAR]([http://odemar.weebly.com/),with the French IFREMER's Research vessel *Pourquoi Pas?*. Studied the detachment fault system at 13 degrees N on the Mid-Atlantic Ridge, and earthquake-triggered seafloor structures in the Caribbean"
 
     # Projects section
     [params.projects]
