@@ -134,19 +134,58 @@ disable404 = true
         dates = "2015 - Present"
         company = "Centre for Geobiology (CGB), Bjerknes Centre for Climate Research (BCCR)"
         details = "I am currently a Phd candidate in Bjarte Hannisdal's *Earth System Interactions and Information Transfer* group at the University of Bergen."
-
+         
+        [[params.jobs.list]]
+        position = "Head teaching assistant (GEOV105)"
+        dates = "May 2015 - Present"
+        company = "University of Bergen"
+        details = "Introduction to historical geology and paleontology. I lead practicals, develop course material, and guide during the excursion to the Oslo Rift."
+        
         [[params.jobs.list]]
         position = "Senior engineer"
         dates = "September 2014 – March 2015"
         company = "Norwegian Geological Survey (NGU), Trondheim, Norway"
         details = "Elemental analysis of geological samples, soils and water in the NGU laboratory. Atomic absorption spectrometry (AAS). Mass spectrometry (ICP-MS) and atomic emission spectrometry (ICP-OES)."
 
+
+        [[params.jobs.list]]
+        position = "Teaching assistant (GEOV104)"
+        dates = "January 2013 - June 2014"
+        company = "University of Bergen"
+        details = "Introduction to Structural Geology and Tectonics."
+        
+        [[params.jobs.list]]
+        position = "Teaching assistant (GEOV108)"
+        dates = "June 2013 –  November 2013"
+        company = "University of Bergen"
+        details = "Introduction to Marine Geology and Geophysics."
+        
+       
         [[params.jobs.list]]
         position = "Shipboard scientist"
         dates = "November - December 2013"
         company = "University of Bergen, Centre for Geobiology (CGB)"
         details = "Scientific cruise, [ODEMAR](http://odemar.weebly.com/), with the French IFREMER's Research vessel *Pourquoi Pas?*. Studied the detachment fault system at 13 degrees N on the Mid-Atlantic Ridge, and earthquake-triggered seafloor structures in the Caribbean"
 
+        [[params.jobs.list]]
+        position = "Research assistant"
+        dates = "August - September 2013"
+        company = "University of Bergen, Centre for Geobiology (CGB)"
+        details = "Expedition with R.V. Seabed Explorer to the Jan Mayen Fracture Zone (JMFZ). Part of cooperation between the University of Bergen and the Norwegian Petroleum Directorate. Geological exploration and hard rock sampling by chainsaw equipped remotely operated vehicle (ROV)."
+        
+         [[params.jobs.list]]
+        position = "Research assistant"
+        dates = "June 2013"
+        company = "University of Bergen"
+        details = "Expedition with the R.V. G.O. Sars in the North Sea (Norwegian Trench) as part of the GLANAM project. Mapping of geomorphological features of the Norwegian channel by TOPAS seismic profiling and multibeam bathymetric data. Gravity coring of sediments."
+        
+         [[params.jobs.list]]
+        position = "Research assistant"
+        dates = "June - July 2013"
+        company = "University of Bergen"
+        details = "Expedition with the R.V G.O. Sars to the Jan Mayen Ridge.  Cooperation between the University of Bergen and the Norwegian Petroleum Directorate. Hard rock sampling by dredging and remotely operated vehicle (ROV). Gravity coring. Rock sample and sediment core descriptions. Acquisition of TOPAS seismic profiles and multibeam bathymetric data."
+        
+        
     # Projects section
     [params.projects]
         enable = true
@@ -154,6 +193,18 @@ disable404 = true
         title = "Publications"
         intro = "List of publications I've authored or contributed to, and their references."
 
+         [[params.projects.list]]
+        title = "Tectonic structure, evolution, and the nature of oceanic core complexes and their detachment fault zones (13°20′N and 13°30′N, Mid Atlantic Ridge)"
+        url = "http://onlinelibrary.wiley.com/doi/10.1002/2016GC006775/full"
+        tagline = "*Escartín, J., et al. Tectonic structure, evolution, and the nature of oceanic core complexes and their detachment fault zones (13&deg; 20' N and 13&deg; 30' N, Mid Atlantic Ridge). Geochemistry, Geophysics, Geosystems (2016).*"
+        
+        
+        [[params.projects.list]]
+        title = "Vulkaner av leire"
+        url = "https://www.idunn.no/natur/2017/02/vulkaner_av_leire"
+        tagline = "*Bjerga, A., Haaga, K. A. (2017, February). Vulkaner av leire. In Naturen (Vol. 141, p.80–85), Universitetsforlaget AS.*"
+
+        
         [[params.projects.list]]
         title = "Non-parametric causal assessment in deep-time geological records"
         url = "http://meetingorganizer.copernicus.org/EGU2016/EGU2016-14838-1.pdf"
