@@ -136,30 +136,16 @@ disable404 = true
         details = "I am currently a Phd candidate in Bjarte Hannisdal's *Earth System Interactions and Information Transfer* group at the University of Bergen."
          
         [[params.jobs.list]]
-        position = "Head teaching assistant (GEOV105)"
-        dates = "May 2015 - Present"
+        position = "Course development for GEOV105"
+        dates = "2016"
         company = "University of Bergen"
-        details = "Introduction to historical geology and paleontology. I lead practicals, develop course material, and guide during the excursion to the Oslo Rift."
+        details = "Introduction to historical geology and paleontology."
         
         [[params.jobs.list]]
         position = "Senior engineer"
         dates = "September 2014 – March 2015"
         company = "Norwegian Geological Survey (NGU), Trondheim, Norway"
         details = "Elemental analysis of geological samples, soils and water in the NGU laboratory. Atomic absorption spectrometry (AAS). Mass spectrometry (ICP-MS) and atomic emission spectrometry (ICP-OES)."
-
-
-        [[params.jobs.list]]
-        position = "Teaching assistant (GEOV104)"
-        dates = "January 2013 - June 2014"
-        company = "University of Bergen"
-        details = "Introduction to Structural Geology and Tectonics."
-        
-        [[params.jobs.list]]
-        position = "Teaching assistant (GEOV108)"
-        dates = "June 2013 –  November 2013"
-        company = "University of Bergen"
-        details = "Introduction to Marine Geology and Geophysics."
-        
        
         [[params.jobs.list]]
         position = "Shipboard scientist"
@@ -184,7 +170,26 @@ disable404 = true
         dates = "June - July 2013"
         company = "University of Bergen"
         details = "Expedition with the R.V G.O. Sars to the Jan Mayen Ridge.  Cooperation between the University of Bergen and the Norwegian Petroleum Directorate. Hard rock sampling by dredging and remotely operated vehicle (ROV). Gravity coring. Rock sample and sediment core descriptions. Acquisition of TOPAS seismic profiles and multibeam bathymetric data."
+    
+      [[params.jobs.list]]
+        position = "Teaching assistant (GEOV105)"
+        dates = "May 2015 - Present"
+        company = "University of Bergen"
+        details = "Introduction to historical geology and paleontology. I lead practicals, and guide during the excursion to the Oslo Rift."
         
+      
+        [[params.jobs.list]]
+        position = "Teaching assistant (GEOV104)"
+        dates = "January 2013 - June 2014"
+        company = "University of Bergen"
+        details = "Introduction to Structural Geology and Tectonics."
+        
+        [[params.jobs.list]]
+        position = "Teaching assistant (GEOV108)"
+        dates = "June 2013 –  November 2013"
+        company = "University of Bergen"
+        details = "Introduction to Marine Geology and Geophysics."
+            
         
     # Projects section
     [params.projects]
@@ -194,7 +199,7 @@ disable404 = true
         intro = "List of publications I've authored or contributed to, and their references."
 
          [[params.projects.list]]
-        title = "Tectonic structure, evolution, and the nature of oceanic core complexes and their detachment fault zones (13°20′N and 13°30′N, Mid Atlantic Ridge)"
+        title = "Tectonic structure, evolution, and the nature of oceanic core complexes and their detachment fault zones (13&deg;20'N and 13&deg;30'N, Mid Atlantic Ridge)"
         url = "http://onlinelibrary.wiley.com/doi/10.1002/2016GC006775/full"
         tagline = "*Escartín, J., et al. Tectonic structure, evolution, and the nature of oceanic core complexes and their detachment fault zones (13&deg; 20' N and 13&deg; 30' N, Mid Atlantic Ridge). Geochemistry, Geophysics, Geosystems (2016).*"
         
