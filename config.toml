@@ -1,0 +1,201 @@
+# Page settings
+
+baseurl = "http://kahaaga.net"
+languageCode = "en-us"
+title = "Kristian Agasøster Haaga resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-2.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Kristian Agasøster Haaga"
+        tagline = "PhD candidate in time series analysis"
+        avatar = "profile2.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: kristian.haaga@uib.no"
+        title = "kristian.haaga@uib.no"
+        
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: kahaaga@gmail.com"
+        title = "kahaaga@gmail.com"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//kahaaga.net"
+        title = "kahaaga.net"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/kahaaga"
+        title = "linkedin.com/in/kahaaga"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/kahaaga"
+        title = "github.com/kahaaga"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MSc in Geochemistry"
+        college = "University of Bergen"
+        dates = "2012 - 2014"
+
+        [[params.education.list]]
+        degree = "BSc in Geosciences"
+        college = "University of Bergen"
+        dates = "2009 - 2012"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Norwegian"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Beginner"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Rock climbing"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Data analyst working on nonparametric approaches for detecting drive-response relationships from time series. This is my (eventually) exhaustive CV."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "PhD candidate"
+        dates = "2015 - Present"
+        company = "Centre for Geobiology (CGB), Bjerknes Centre for Climate Research (BCCR)"
+        details = "I am currently a Phd candidate in Bjarte Hannisdal's *Earth System Interactions and Information Transfer* group at the University of Bergen."
+
+        [[params.jobs.list]]
+        position = "Senior engineer"
+        dates = "September 2014 – March 2015"
+        company = "Norwegian Geological Survey (NGU), Trondheim, Norway"
+        details = "Elemental analysis of geological samples, soils and water in the NGU laboratory. Atomic absorption spectrometry (AAS). Mass spectrometry (ICP-MS) and atomic emission spectrometry (ICP-OES)."
+
+        [[params.jobs.list]]
+        position = "Shipboard scientist"
+        dates = "November - December 2013"
+        company = "University of Bergen, Centre for Geobiology (CGB)"
+        details = "Scientific cruise ([ODEMAR]([http://odemar.weebly.com/)) with the French IFREMER's Research vessel *Pourquoi Pas?*. Studied the detachment fault system at 13 degrees N on the Mid-Atlantic Ridge, and earthquake-triggered seafloor structures in the Caribbean"
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Publications"
+        intro = "List of publications I've authored or contributed to and their references."
+
+        [[params.projects.list]]
+        title = "Non-parametric causal assessment in deep-time geological records"
+        url = "http://adsabs.harvard.edu/abs/2016EGUGA..1814838A"
+        tagline = "*Agasøster Haaga, K., Diego, D., Brendryen, J., & Hannisdal, B. (2016, April). Non-parametric causal assessment in deep-time geological records. In EGU General Assembly Conference Abstracts (Vol. 18, p. 14838).*"
+
+        [[params.projects.list]]
+        title = "Common species link global ecosystems to climate change"
+        url = "http://biorxiv.org/content/early/2016/03/15/043729"
+        tagline = "*Hannisdal, B., Haaga, K. A., Reitan, T., Diego, D., & Liow, L. H. (2016). Common species link global ecosystems to climate change. bioRxiv, 043729.*"
+        
+        [[params.projects.list]]
+        title = "First direct observation of coseismic slip and seafloor rupture along a submarine normal fault and implications for fault slip history"
+        uril = "http://www.sciencedirect.com/science/article/pii/S0012821X16303119"
+        tagline = "*Escartín, J., Leclerc, F., Olive, J. A., Mevel, C., Cannat, M., Petersen, S., ... & Bonnemains, D. (2016). First direct observation of coseismic slip and seafloor rupture along a submarine normal fault and implications for fault slip history. Earth and Planetary Science Letters, 450, 96-107.*"
+    
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Julia"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "R"
+        level = "100%"
+
+        
+        
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Kristian Agasøster Haaga"
