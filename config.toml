@@ -1,6 +1,7 @@
 # Page settings
 
-baseurl = "http://kahaaga.net"
+#baseurl = "http://kahaaga.net"
+relativeurls = true
 languageCode = "en-us"
 title = "Kristian Agasøster Haaga resume"
 theme = "hugo-orbit-theme"
