@@ -152,7 +152,7 @@ disable404 = true
         enable = true
         icon = "fa-archive"
         title = "Publications"
-        intro = "List of publications I've authored or contributed to and their references."
+        intro = "List of publications I've authored or contributed to, and their references."
 
         [[params.projects.list]]
         title = "Non-parametric causal assessment in deep-time geological records"
@@ -181,6 +181,10 @@ disable404 = true
                 
         [[params.skills.list]]
         skill = "Julia"
+        level = "90%"
+        
+        [[params.skills.list]]
+        skill = "Java"
         level = "90%"
 
         [[params.skills.list]]
